@@ -1,0 +1,32 @@
+{
+  "name": "resposta-desafio-mmtech-propostaa-backend",
+  "version": "1.0.0",
+  "description": "Minha resposta ao proposto A do desafio tech da MMTech",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinWillian/Resposta-Desafio-MMTech-PropostaA-Backend.git"
+  },
+  "author": "Kevin Willian Dos Santos",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinWillian/Resposta-Desafio-MMTech-PropostaA-Backend/issues"
+  },
+  "homepage": "https://github.com/kevinWillian/Resposta-Desafio-MMTech-PropostaA-Backend#readme",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "email-validator": "^2.0.4",
+    "express": "^4.19.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "nedb": "^1.8.0",
+    "phone": "^3.1.50"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}

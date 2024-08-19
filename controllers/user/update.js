@@ -4,6 +4,7 @@ import emailValidator from 'email-validator'
 import {phone} from 'phone';
 
 export default (req, res) => {
+    res.header("Access-Control-Allow-Origin", "*");
     const avj = new Ajv();
     const schema = {
         type: "object",
@@ -39,7 +40,6 @@ export default (req, res) => {
         }
     }
     if(req.body.phone){
-        console.log(phone(req.body.phone));
         if(!phone(req.body.phone).isValid){
             res.status(400).json({error: {code: '400', message: 'phone invalid'}});
             return;

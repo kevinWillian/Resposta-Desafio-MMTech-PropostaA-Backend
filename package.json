@@ -20,6 +20,7 @@
   "homepage": "https://github.com/kevinWillian/Resposta-Desafio-MMTech-PropostaA-Backend#readme",
   "dependencies": {
     "ajv": "^8.17.1",
+    "cors": "^2.8.5",
     "email-validator": "^2.0.4",
     "express": "^4.19.2",
     "express-mongo-sanitize": "^2.2.0",

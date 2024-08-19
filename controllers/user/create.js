@@ -5,6 +5,9 @@ import {phone} from 'phone';
 
 
 export default (req, res) => {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header(`Access-Control-Allow-Methods`, `POST`);
+    res.header(`Access-Control-Allow-Headers`, `Content-Type`);
 
     var avj = new Ajv();
 

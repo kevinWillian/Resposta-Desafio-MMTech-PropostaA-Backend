@@ -29,7 +29,7 @@ export default (req, res) => {
         return;
     }
 
-    let regex = /^[a-zA-Z ]+$/;
+    let regex = /^[a-zA-ZÀ-ÿ\s]+$/;
     if(!regex.test(req.body.name)){
         res.status(400).json({error: {code: '400', message: 'name invalid'}});
         return;

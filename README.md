@@ -3,7 +3,7 @@ Essa é minha resposta backend para o proposto A do desafio tech da MMTech.
 
 ## Instalação
 
- Para instalar o servidor clone o repositório e na pasta raiz do projeto rode `npm install` e em seguida `npm start`
+ Para instalar o servidor clone o repositório e com npm instalado, na pasta raiz do projeto rode `npm install` e em seguida `npm start`.
 
  ## Uso
 
